@@ -1,0 +1,48 @@
+/**********************************
+
+Name: MasterPageForm1 Styles
+
+***********************************/
+form.MasterPageForm1 {
+	font-size: 1.0em;
+	color: #333;
+}
+
+form.MasterPageForm1 legend {
+	padding-left: 0;
+}
+
+form.MasterPageForm1 legend, form.MasterPageForm1 label {
+	color: #333;
+}
+
+form.MasterPageForm1 fieldset {
+	border: none;
+	border-top: 1px solid #C9DCA6;
+	background: url(../images/cmxform-fieldset.gif) left bottom repeat-x;
+	background-color: #F8FDEF;
+}
+
+form.MasterPageForm1 fieldset fieldset {
+	background: none;
+}
+
+form.MasterPageForm1 fieldset p, form.MasterPageForm1 fieldset fieldset {
+	padding: 5px 10px 7px;
+	background: url(../images/cmxform-divider.gif) left bottom repeat-x;
+}
+
+form.MasterPageForm1 label.error, label.error {
+	color: red;
+	font-style: italic;
+}
+
+div.error { display: none; }
+
+/*input {	border: 1px solid black; }
+input.checkbox { border: none }
+input:focus { border: 1px solid #cccccc; }*/
+
+input.error { background-color: #fef1f3; }
+select.error { background-color: #fef1f3; }
+form.MasterPageForm1 .gray * { color: gray; }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PlanAct" targetNamespace="http://tempuri.org/PlanAct.xsd" xmlns:mstns="http://tempuri.org/PlanAct.xsd" xmlns="http://tempuri.org/PlanAct.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" xmlns:NameSpace1="urn:schemas-microsoft-com:xml-msdatasource" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:annotation>
+		<xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+			<DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+				<Connections>
+				</Connections>
+				<Tables>
+				</Tables>
+				<Sources>
+				</Sources>
+			</DataSource>
+		</xs:appinfo>
+	</xs:annotation>
+	<xs:element name="PlanAct" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PlanAct" msprop:Generator_DataSetName="PlanAct">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="PlanAct" msprop:Generator_UserTableName="PlanAct" msprop:Generator_RowDeletedName="PlanActRowDeleted" msprop:Generator_TableClassName="PlanActDataTable" msprop:Generator_RowChangedName="PlanActRowChanged" msprop:Generator_RowClassName="PlanActRow" msprop:Generator_RowChangingName="PlanActRowChanging" msprop:Generator_RowEvArgName="PlanActRowChangeEvent" msprop:Generator_RowEvHandlerName="PlanActRowChangeEventHandler" msprop:Generator_TablePropName="_PlanAct" msprop:Generator_TableVarName="tablePlanAct" msprop:Generator_RowDeletingName="PlanActRowDeleting">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="number" msprop:Generator_UserColumnName="number" msprop:Generator_ColumnPropNameInRow="number" msprop:Generator_ColumnVarNameInTable="columnnumber" msprop:Generator_ColumnPropNameInTable="numberColumn" type="xs:int" minOccurs="0" />
+							<xs:element name="nmonth" msprop:Generator_UserColumnName="nmonth" msprop:Generator_ColumnPropNameInRow="nmonth" msprop:Generator_ColumnVarNameInTable="columnnmonth" msprop:Generator_ColumnPropNameInTable="nmonthColumn" type="xs:string" minOccurs="0" />
+							<xs:element name="Plan" msprop:Generator_UserColumnName="Plan" msprop:Generator_ColumnPropNameInRow="Plan" msprop:Generator_ColumnVarNameInTable="columnplan" msprop:Generator_ColumnPropNameInTable="planColumn" type="xs:int" minOccurs="0" />
+							<xs:element name="Actual" msprop:Generator_UserColumnName="Actual" msprop:Generator_ColumnPropNameInRow="Actual" msprop:Generator_ColumnVarNameInTable="columnActual" msprop:Generator_ColumnPropNameInTable="ActualColumn" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,107 @@
+﻿#sddm
+{	margin: 0;
+    position:absolute;
+   padding: 0;
+	z-index: 30;
+}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+    font: bold 12px arial,verdana;}
+
+#sddm li a
+{	display:block;
+	margin: 0 4px 0 0;
+	padding: 5px 6px;
+    width: 100px;
+	background: #ffffff;
+	color: #124191;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #cfcfcf;color:#124191;}
+
+#sddm div
+{	position:absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+    width:150px;
+    
+	border: 1px solid #124191;}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #ffffff;
+		color: #2875DE;
+		font: 12px Arial,Verdana;}
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF;}
+
+    #sddm1
+{	margin: 0;
+    padding: 0;
+    position:relative;
+	z-index: 30;}
+
+#sddm1 li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+    font: bold 12px arial,verdana;}
+
+#sddm1 li a
+{	display: block;
+	margin: 0 4px 0 0;
+	padding: 0px 0px;
+    width: 450px;
+	background-color:transparent;
+	color: #ffffff;
+	text-align: right;
+	text-decoration: none;}
+
+#sddm1 li a:hover
+{	background-color: transparent;color:#ffffff; text-decoration:underline;}
+
+#sddm1 div
+{	position:absolute;
+	visibility: hidden;
+    margin-top:10px;
+	margin-left: 250px;
+	padding: 0;
+	background: #EAEBD8;
+    width:220px;
+    text-align:right;
+    border: 2px solid #124191;}
+
+	#sddm1 div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #ffffff;
+		color: #2875DE;
+		font: 12px Arial,Verdana;}
+
+	#sddm1 div a:hover
+	{	background: #49A3FF;
+		color: #FFF;}

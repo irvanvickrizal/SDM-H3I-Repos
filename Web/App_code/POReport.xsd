@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="POReport" targetNamespace="http://tempuri.org/POReport.xsd" xmlns:mstns="http://tempuri.org/POReport.xsd" xmlns="http://tempuri.org/POReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="POReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="POReport" msprop:Generator_DataSetName="POReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="POReport" msprop:Generator_UserTableName="POReport" msprop:Generator_RowDeletedName="POReportRowDeleted" msprop:Generator_RowChangedName="POReportRowChanged" msprop:Generator_RowClassName="POReportRow" msprop:Generator_RowChangingName="POReportRowChanging" msprop:Generator_RowEvArgName="POReportRowChangeEvent" msprop:Generator_RowEvHandlerName="POReportRowChangeEventHandler" msprop:Generator_TableClassName="POReportDataTable" msprop:Generator_TableVarName="tablePOReport" msprop:Generator_RowDeletingName="POReportRowDeleting" msprop:Generator_TablePropName="_POReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PONO" msprop:Generator_UserColumnName="PONO" msprop:Generator_ColumnVarNameInTable="columnPoNo" msprop:Generator_ColumnPropNameInRow="PoNo" msprop:Generator_ColumnPropNameInTable="PoNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SITENO" msprop:Generator_UserColumnName="SITENO" msprop:Generator_ColumnVarNameInTable="columnSiteNo" msprop:Generator_ColumnPropNameInRow="SiteNo" msprop:Generator_ColumnPropNameInTable="SiteNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WORKPKGID" msprop:Generator_UserColumnName="WORKPKGID" msprop:Generator_ColumnVarNameInTable="_columnWORKPKGID" msprop:Generator_ColumnPropNameInRow="_WORKPKGID" msprop:Generator_ColumnPropNameInTable="_WORKPKGIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SCOPE" msprop:Generator_UserColumnName="SCOPE" msprop:Generator_ColumnVarNameInTable="columnSCOPE" msprop:Generator_ColumnPropNameInRow="SCOPE" msprop:Generator_ColumnPropNameInTable="SCOPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CONFIG" msprop:Generator_UserColumnName="CONFIG" msprop:Generator_ColumnVarNameInTable="columnCONFIG" msprop:Generator_ColumnPropNameInRow="CONFIG" msprop:Generator_ColumnPropNameInTable="CONFIGColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BAND" msprop:Generator_UserColumnName="BAND" msprop:Generator_ColumnVarNameInTable="columnBAND" msprop:Generator_ColumnPropNameInRow="BAND" msprop:Generator_ColumnPropNameInTable="BANDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="USD" msprop:Generator_UserColumnName="USD" msprop:Generator_ColumnVarNameInTable="columnUSD" msprop:Generator_ColumnPropNameInRow="USD" msprop:Generator_ColumnPropNameInTable="USDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IDR" msprop:Generator_UserColumnName="IDR" msprop:Generator_ColumnVarNameInTable="columnIDR" msprop:Generator_ColumnPropNameInRow="IDR" msprop:Generator_ColumnPropNameInTable="IDRColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ANTENNANAME" msprop:Generator_UserColumnName="ANTENNANAME" msprop:Generator_ColumnVarNameInTable="columnANTENNANAME" msprop:Generator_ColumnPropNameInRow="ANTENNANAME" msprop:Generator_ColumnPropNameInTable="ANTENNANAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ANTENNAQTY" msprop:Generator_UserColumnName="ANTENNAQTY" msprop:Generator_ColumnPropNameInRow="ANTENNAQTY" msprop:Generator_ColumnVarNameInTable="columnANTENNAQTY" msprop:Generator_ColumnPropNameInTable="ANTENNAQTYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FEEDERLEN" msprop:Generator_UserColumnName="FEEDERLEN" msprop:Generator_ColumnPropNameInRow="FEEDERLEN" msprop:Generator_ColumnVarNameInTable="columnFEEDERLEN" msprop:Generator_ColumnPropNameInTable="FEEDERLENColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FEEDERTYPE" msprop:Generator_UserColumnName="FEEDERTYPE" msprop:Generator_ColumnPropNameInRow="FEEDERTYPE" msprop:Generator_ColumnVarNameInTable="columnFEEDERTYPE" msprop:Generator_ColumnPropNameInTable="FEEDERTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FEEDERQTY" msprop:Generator_UserColumnName="FEEDERQTY" msprop:Generator_ColumnPropNameInRow="FEEDERQTY" msprop:Generator_ColumnVarNameInTable="columnFEEDERQTY" msprop:Generator_ColumnPropNameInTable="FEEDERQTYColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

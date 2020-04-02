@@ -1,0 +1,166 @@
+
+
+alter PROCEDURE [dbo].[uspGetMileStoneDetailsColumns]       
+    
+AS      
+BEGIN      
+select A.name as TTable, 'NIC - ' + c.name   TColumn  ,t.name TDataType, c.Colorder Seq from sysobjects A inner join syscolumns c on a.id= c.id inner join systypes T on c.xtype=T.xusertype    
+where A.xtype='U' and A.name='NICData'    
+    
+END      
+
+go
+
+alter PROCEDURE [dbo].[uspGetEPMDataColumns]         
+      
+AS        
+BEGIN        
+ select A.name as TTable, 'EPM - ' + c.name  TColumn,t.name TDataType, c.Colorder Seq from sysobjects A inner join syscolumns c on a.id= c.id inner join systypes T on c.xtype=T.xusertype      
+where A.xtype='U' and A.name='EPMDATA'  and c.Colorder > 29     
+      
+END     
+
+
+go
+
+alter PROCEDURE [dbo].[uspGetEPMNICColumns]       
+    
+AS      
+BEGIN      
+select A.name as TTable,'NIC - ' + c.name  TColumn  ,t.name TDataType, c.Colorder Seq from sysobjects A inner join syscolumns c on a.id= c.id inner join systypes T on c.xtype=T.xusertype    
+where A.xtype='U' and A.name='NICData'     
+union all    
+select A.name as TTable,'EPM - ' + c.name TColumn,t.name TDataType, c.Colorder Seq from sysobjects A inner join syscolumns c on a.id= c.id inner join systypes T on c.xtype=T.xusertype      
+where A.xtype='U' and A.name='EPMDATA' and c.Colorder > 29     
+      
+END   
+
+
+go
+
+
+CREATE procedure uspNICEPMFieldsInsert  
+@SqlCmd varchar(20)  
+  
+as  
+begin  
+if @SqlCmd='DEL'  
+begin  
+  
+Drop Table NICEPMFields  
+  
+CREATE TABLE [dbo].[NICEPMFields](  
+ [SLNo] [int]   
+ )   
+end  
+end  
+
+go
+
+
+create procedure uspNICDataTemplate  
+@SqlCmd varchar(20)  
+  
+as  
+begin  
+if @SqlCmd='DEL'  
+begin  
+  
+Drop Table NICDataTemplate  
+  
+CREATE TABLE [dbo].[NICDataTemplate](  
+ [SLNo] [int]   
+ )   
+end  
+end  
+  
+
+go
+
+create procedure uspNICEPMData  
+  
+as  
+begin  
+select * from NICEPMFields  
+end
+
+go
+
+create procedure uspNICGetDataTemplate  
+  
+as  
+begin  
+select * from NICDataTemplate  
+end
+
+go
+
+CREATE procedure uspNICDataGetFields    
+    
+as    
+begin    
+select * from NICDataFields order by SLNO asc  
+end
+
+go
+
+CREATE procedure uspGetNICFieldsData    
+    
+@SLNo int =0    
+    
+as    
+begin    
+select SLNo,FieldName from NICDataFields where SLNo=@SLNo    
+    
+end    
+
+
+go
+
+
+CREATE procedure uspNICFieldsDelete  
+  
+@FieldName varchar(100)  
+  
+as  
+begin  
+  
+delete from NICDataFields where FieldNAme=@FieldName  
+  
+end
+
+go
+
+
+CREATE PROCEDURE [dbo].[uspTIMilestoneDetailsInsert]        
+@milestone varchar(50)        
+AS        
+BEGIN        
+declare @count int        
+declare @count1 int        
+select @count=count(*) from TIMilestone where MileStone=@milestone        
+if @count=0        
+ begin        
+        select @count1=count(*) from sysobjects A inner join syscolumns c on a.id= c.id inner join systypes T on c.xtype=T.xusertype where A.xtype='U'  and a.name='NICData'      
+  and c.name=@MILEStone      
+        if @count1 <> 0      
+   begin      
+   insert into TIMilestone(MileStone) values(@milestone)        
+   select 1 as status        
+   end      
+        else      
+            begin      
+   insert into TIMilestone(MileStone) values(@milestone)        
+   select 3 as status        
+   end      
+            
+ end        
+else        
+ select 2 as status        
+         
+END        
+
+
+
+
+

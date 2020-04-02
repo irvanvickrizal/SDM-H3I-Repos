@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Milstone" targetNamespace="http://tempuri.org/Milstone.xsd" xmlns:mstns="http://tempuri.org/Milstone.xsd" xmlns="http://tempuri.org/Milstone.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="NSN_DEMOConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="NSN_DEMOConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.NSN_DEMOConnectionString.ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Milstone" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Milstone" msprop:Generator_DataSetName="Milstone">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DashboardReportReports" msprop:Generator_UserTableName="DashboardReportReports" msprop:Generator_RowDeletedName="DashboardReportReportsRowDeleted" msprop:Generator_TableClassName="DashboardReportReportsDataTable" msprop:Generator_RowChangedName="DashboardReportReportsRowChanged" msprop:Generator_RowClassName="DashboardReportReportsRow" msprop:Generator_RowChangingName="DashboardReportReportsRowChanging" msprop:Generator_RowEvArgName="DashboardReportReportsRowChangeEvent" msprop:Generator_RowEvHandlerName="DashboardReportReportsRowChangeEventHandler" msprop:Generator_TablePropName="DashboardReportReports" msprop:Generator_TableVarName="tableDashboardReportReports" msprop:Generator_RowDeletingName="DashboardReportReportsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Pono" msprop:Generator_UserColumnName="Pono" msprop:Generator_ColumnPropNameInRow="Pono" msprop:Generator_ColumnVarNameInTable="columnPono" msprop:Generator_ColumnPropNameInTable="PonoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalSite" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalSite" msprop:Generator_ColumnPropNameInRow="TotalSite" msprop:Generator_ColumnVarNameInTable="columnTotalSite" msprop:Generator_ColumnPropNameInTable="TotalSiteColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CustomerPoRecordDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CustomerPoRecordDate" msprop:Generator_ColumnPropNameInRow="CustomerPoRecordDate" msprop:Generator_ColumnVarNameInTable="columnCustomerPoRecordDate" msprop:Generator_ColumnPropNameInTable="CustomerPoRecordDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalSiteIntegration" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalSiteIntegration" msprop:Generator_ColumnPropNameInRow="TotalSiteIntegration" msprop:Generator_ColumnVarNameInTable="columnTotalSiteIntegration" msprop:Generator_ColumnPropNameInTable="TotalSiteIntegrationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalSiteAcpOnAir" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalSiteAcpOnAir" msprop:Generator_ColumnPropNameInRow="TotalSiteAcpOnAir" msprop:Generator_ColumnVarNameInTable="columnTotalSiteAcpOnAir" msprop:Generator_ColumnPropNameInTable="TotalSiteAcpOnAirColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalSiteAcpOnBAST" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalSiteAcpOnBAST" msprop:Generator_ColumnPropNameInRow="TotalSiteAcpOnBAST" msprop:Generator_ColumnVarNameInTable="columnTotalSiteAcpOnBAST" msprop:Generator_ColumnPropNameInTable="TotalSiteAcpOnBASTColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalEquipmentArrived" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalEquipmentArrived" msprop:Generator_ColumnPropNameInRow="TotalEquipmentArrived" msprop:Generator_ColumnVarNameInTable="columnTotalEquipmentArrived" msprop:Generator_ColumnPropNameInTable="TotalEquipmentArrivedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalEquipmentOnSite" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalEquipmentOnSite" msprop:Generator_ColumnPropNameInRow="TotalEquipmentOnSite" msprop:Generator_ColumnVarNameInTable="columnTotalEquipmentOnSite" msprop:Generator_ColumnPropNameInTable="TotalEquipmentOnSiteColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalSiteATP" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalSiteATP" msprop:Generator_ColumnPropNameInRow="TotalSiteATP" msprop:Generator_ColumnVarNameInTable="columnTotalSiteATP" msprop:Generator_ColumnPropNameInTable="TotalSiteATPColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReadyForBaut" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReadyForBaut" msprop:Generator_ColumnPropNameInRow="ReadyForBaut" msprop:Generator_ColumnVarNameInTable="columnReadyForBaut" msprop:Generator_ColumnPropNameInTable="ReadyForBautColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReadyForBast" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReadyForBast" msprop:Generator_ColumnPropNameInRow="ReadyForBast" msprop:Generator_ColumnVarNameInTable="columnReadyForBast" msprop:Generator_ColumnPropNameInTable="ReadyForBastColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

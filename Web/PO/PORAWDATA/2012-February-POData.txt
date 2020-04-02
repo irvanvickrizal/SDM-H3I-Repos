@@ -1,0 +1,94 @@
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11020771.xls | Date Time : 03/02/2012 14:39 | Uploaded by : Pramono | UserType : N
+Processed Records : 14
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11020771.xls | Date Time : 03/02/2012 16:37 | Uploaded by : Pramono | UserType : N
+Processed Records : 9
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11020771.xls | Date Time : 03/02/2012 16:49 | Uploaded by : Pramono | UserType : N
+Processed Records : 9
+
+
+Uploaded File Name : PO_Dummy2_2011_Sulmapua.xls | Date Time : 06/02/2012 12:03 | Uploaded by : Pramono | UserType : N
+Processed Records : 2
+
+
+Uploaded File Name : 2G PO Equipment Bali Nusra_11 2011_HOT 11071639.xls | Date Time : 08/02/2012 10:45 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 95
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091380.xls | Date Time : 08/02/2012 18:50 | Uploaded by : Pramono | UserType : N
+Processed Records : 40
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091380.xls | Date Time : 08/02/2012 21:24 | Uploaded by : Pramono | UserType : N
+Processed Records : 40
+Updated Sites : 40
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091380.xls | Date Time : 08/02/2012 21:38 | Uploaded by : Pramono | UserType : N
+Processed Records : 40
+Updated Sites : 80
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091380.xls | Date Time : 08/02/2012 21:53 | Uploaded by : Pramono | UserType : N
+Processed Records : 40
+Updated Sites : 120
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091380.xls | Date Time : 08/02/2012 22:03 | Uploaded by : Pramono | UserType : N
+Processed Records : 40
+Updated Sites : 160
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091380.xls | Date Time : 09/02/2012 11:00 | Uploaded by : Pramono | UserType : N
+Processed Records : 40
+Updated Sites : 200
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091282.xls | Date Time : 09/02/2012 14:22 | Uploaded by : Pramono | UserType : N
+Processed Records : 50
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11091388.xls | Date Time : 09/02/2012 14:38 | Uploaded by : Pramono | UserType : N
+Processed Records : 5
+
+
+Uploaded File Name : 2G PO Equipment Bali Nusra_12 2011_HOT 11070513.xls | Date Time : 10/02/2012 09:42 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 3
+
+
+Uploaded File Name : 2G PO Equipment Bali Nusra_16 2011_HOT 11071636.xls | Date Time : 10/02/2012 09:46 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 42
+
+
+Uploaded File Name : PO 3G IBC Equipment Bali Nusra_4 2011_HOG11070295.xls | Date Time : 10/02/2012 10:41 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 11
+
+
+Uploaded File Name : PO 2G Equipment E1_ETH 2011 Sumbagsel- Hot 11020771- 5388372- 73.xls | Date Time : 13/02/2012 14:35 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 2
+
+
+Uploaded File Name : eBAST_Upload PO_HOT 11021322.xls | Date Time : 13/02/2012 21:01 | Uploaded by : Pramono | UserType : N
+Processed Records : 3
+
+
+Uploaded File Name : PO 2G Equipment #21 Sumbagsel 2011- HOT 11021497.xls | Date Time : 14/02/2012 10:31 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 354
+Updated Sites : 2
+
+
+Uploaded File Name : PO 2G Equipment #21 Sumbagsel 2011- HOT 11021497.xls | Date Time : 14/02/2012 11:10 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 354
+
+
+Uploaded File Name : PO 2G Equipment_22 Sumbagsel 2011- HOT 11021571.xls | Date Time : 20/02/2012 14:40 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 209
+Missing Workpackage Id : 1
+Updated Sites : 5
+
+
+Uploaded File Name : PO 2G Equipment_20 Sumbagsel 2011- HOT 11021549.xls | Date Time : 20/02/2012 15:10 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 24

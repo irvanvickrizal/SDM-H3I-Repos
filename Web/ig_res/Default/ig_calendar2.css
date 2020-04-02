@@ -1,0 +1,172 @@
+.igcld_Control
+{
+	background-color:#77B9E5;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/header.gif);
+	border:1px solid LightGrey;
+	
+}
+
+.igcld_DOW
+{
+	background-color:White;
+	font-family:Verdana;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #9AC6FF;
+	padding:5px 0px 0px 0px;
+	height:15px;
+	text-align:center;
+}
+
+.igcld_NextPrev
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family:Verdana;
+	color:#404000;
+}
+
+.igcld_HoverNextPrev
+{
+	background-color:#A0B0F0;
+}
+
+.igcld_PressedNextPrev
+{
+	background-color:#909090;
+}
+
+.igcld_Footer
+{
+	background-color:Gainsboro;
+	border-top:solid 1px #707070;
+	border-left:solid 1px #707070;
+	border-bottom:solid 1px #F0F0F0;
+	border-right:solid 1px #F0F0F0;
+	padding-top:2px;
+	font-family:Verdana;
+	font-size:xx-small;
+	text-align:center;
+	height:15px;
+}
+
+.igcld_HoverFooter
+{
+	border-bottom:solid 1px #707070;
+	border-right:solid 1px #707070;
+	border-top:solid 1px #F0F0F0;
+	border-left:solid 1px #F0F0F0;
+}
+
+.igcld_PressedFooter
+{
+	background-color:#C0C0C0;
+	border-top:solid 1px #707070;
+	border-left:solid 1px #707070;
+	border-bottom:solid 1px #F0F0F0;
+	border-right:solid 1px #F0F0F0;
+}
+
+.igcld_Header
+{
+	background-color:Transparent;
+	font-size:10px;
+	height: 16px;
+	padding:2px;
+}
+
+.igcld_MonthYear
+{
+	font-size:10px;
+	font-family:verdana;
+	font-weight:bold;
+	border:1px solid #70C0C0;
+	padding:1px;
+	line-height:16px;
+	margin-right:2px;
+	margin-left:2px;
+}
+
+.igcld_PressedMonthYear
+{
+	background-color:#9090B0;
+}
+
+.igcld_HoverMonthYear
+{
+	border:1px solid #4090E0;
+}
+
+.igcld_Day
+{
+	background-color:white;
+	font-size:xx-small;
+	font-family:Verdana;
+	border:1px solid white;
+	text-align:center;
+}
+
+.igcld_WeekendDay
+{
+	background-color:#F0F0F0;
+	border-color:#F0F0F0;
+}
+
+.igcld_OtherMonthDay
+{
+	color:#808080;
+}
+
+.igcld_TodayDay
+{
+	border:solid 1px #B0B000;
+}
+
+.igcld_SelectedDay
+{
+	background-color:#699BC9;
+	background-image:none;
+	color:White;
+}
+
+.igcld_HoverDay
+{
+	font-style:italic;
+	color:#C00000;
+	font-weight:bold;
+}
+
+.igcld_FocusDay
+{
+	border:1px solid #F0E080;
+}
+
+.igcld_DisabledDay
+{
+	color:#B8B8B8;
+}
+
+.igcld_List
+{
+	background:#F0F0FF;
+	border:1px solid #9090B0;
+}
+
+.igcld_Item
+{
+	font-size:10px;
+	font-family:verdana;
+	background:#E8E8F8;
+}
+
+.igcld_SelectedItem
+{
+	background:#A0A0D0;
+}
+
+.igcld_HoverItem
+{
+	background:#4040D0;
+}

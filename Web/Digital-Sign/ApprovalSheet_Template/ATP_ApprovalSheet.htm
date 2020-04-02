@@ -1,0 +1,131 @@
+﻿<html><head><style type="text/css">
+tr{padding: 3px;}
+.MainCSS{margin-bottom: 0px;margin-left: 20px;margin-right: 20px;margin-top: 0px;width: 800px;height: 700px;text-align: center;}
+.lblText{font-family: verdana;font-size: 8pt;color: #000000;text-align: left;}
+.PageBreak{page-break-before:always;}
+.lblBText{font-family: verdana;font-size: 8pt;color: #000000;text-align: left;font-weight: bold;}
+.lblBold{font-family: verdana;font-size: 12pt;color: #000000;font-weight: bold;}
+.textFieldStyle{background-color: white;border: 1px solid;color: black;font-family: verdana;font-size: 9pt;}
+.GridHeader{color: #0e1b42;background-color: Orange;font-size: 9pt;font-family: Verdana;text-align: Left;vertical-align: bottom;font-weight: bold;}
+.GridEvenRows{background-color: #e3e3e3;vertical-align: top;font-family: verdana;font-size: 8pt;color: #000000;}
+.GridOddRows{background-color: white;vertical-align: top;font-family: verdana;font-size: 8pt;color: #000000;}
+.PagerTitle{font-size: 8pt;background-color: #cddbbf;text-align: Right;vertical-align: middle;color: #25375b;font-weight: bold;}
+.Hcap{height: 5px;}
+.VCap{width: 10px;}
+</style></head>
+<body class="MainCSS">
+<div id="dvPrint" class="MainCSS">
+        <table style="width: 100%;">
+            <tr>
+                <td style="height: 295px">
+                    <table cellpadding="0" cellspacing="0" style="margin-left: 0px; width: 97%;">
+                        <tr>
+                            <td align="left" valign="top" style="width: 30%">
+                                [LOGONSN]
+                            </td>
+                            <td colspan="4" align="center" class="lblBold" valign="top" style="width: 40%; text-align: center;">
+                                <b>[DOCNAME]</b>
+								<b>Approval Sheet</b>
+                                <br />
+                            </td>
+                            <td align="right" valign="top" style="width: 30%">
+                                [LOGOHCPT]
+                            </td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" style="margin-left: 0px; width: 100%;">
+                        <tr>
+                            <td colspan="3" class="Hcap">
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="lblText" colspan="3">
+                                This approval sheet declares that the <b>[DOCNAME]</b> has been performed
+                                at the below location.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="lblText" colspan="3">
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="lblText" style="width: 206px;">
+                                PO No
+                            </td>
+                            <td style="width: 1%;">
+                                :
+                            </td>
+                            <td class="lblText" style="width: 1130px">
+                                <div id="divPONO" style="width: 100%; text-align: left;">[DIVPONOTXT]</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="lblText" style="width: 206px;">
+                                Site Name
+                            </td>
+                            <td style="width: 1%;">
+                                :
+                            </td>
+                            <td class="lblText" style="width: 1130px">
+                                <div id="divSiteName" style="width: 100%; text-align: left;">[DIVSITENAMETXT]</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="lblText" style="width: 206px">
+                                Site ID
+                            </td>
+                            <td style="width: 1%">
+                                :
+                            </td>
+                            <td class="lblText" style="width: 1130px">
+                                <div id="divSiteID" style="width: 100%; text-align: left;">[DIVSITEIDTXT]</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="lblText" style="width: 206px">
+                                Scope
+                            </td>
+                            <td style="width: 1%">
+                                :
+                            </td>
+                            <td class="lblText" style="width: 1130px;">
+                                <div id="divScope" style="width: 100%; text-align: left;">[DIVSCOPETXT]</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="Hcap">
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="lblText">
+                                And the work has been considered as complete and satisfactory fulfil the standard
+                                technical requirements in H3I project.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="Hcap">
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left" class="lblText" colspan="4">
+                                <div id="divReviewer" style="width: 100%; text-align: left;">[DIVREVIEWERTXT]</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="lblText">
+                    This approval sheet is automatically generated by system upon acceptance of all person
+                    in charge and no more signatures on hard copy is required. This sheet is inseparable
+                    from the [DOCNAMERPT] report and should be the first thing seen when opening the report.
+                </td>
+            </tr>
+        </table>
+</div>
+</body>
+</html>

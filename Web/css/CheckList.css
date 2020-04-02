@@ -1,0 +1,101 @@
+﻿BODY
+{
+    BACKGROUND-COLOR: white;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+}
+tr
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.hgap
+{
+	height:10px;
+}
+.pageTitle
+{
+	font-family:  Verdana;
+	font-weight: bold;
+	font-size: 13pt;
+	color: #7d0996;
+	text-align:center;
+	background-color: #e2e2e2;
+	text-decoration: 'underline';
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left: 10px;
+}
+.ContentText
+{
+	font-family:  Verdana;
+	font-size: 9pt;
+	color: #000000;
+	padding-left: 10px;
+	
+	border-width:1px;
+	border-color: #e2e2e2;
+}
+.SectionText
+{
+	font-family: Verdana;
+	font-size: 11pt;
+	color: #0a3a2e;
+	font-weight: bold;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+		padding-right:5px;
+
+}
+.SubSectionText
+{
+	font-family: Verdana;
+	font-size: 9pt;
+	color: #00576a;
+	font-weight: bold;
+	padding-left:30px;
+	padding-top:5px;
+	padding-bottom:5px;
+		padding-right:5px;
+}
+.SubSecDocText
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	color: #0f4652;
+	font-weight: bold;
+	padding-left:30px;	
+	padding-bottom:5px;
+		padding-right:5px;
+}
+.DocText
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	color: #0f4652;
+	font-weight: bold;
+	padding-left:55px;	
+	padding-bottom:5px;
+	padding-right:5px;	
+}
+.SubPageTitle
+{
+	font-family:  Verdana;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #2c3f74;
+	padding-left: 20px;	
+	text-align:center;
+}
+.PageBreak
+{
+	page-break-before:always;
+}

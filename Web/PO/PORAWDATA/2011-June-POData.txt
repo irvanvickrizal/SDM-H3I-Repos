@@ -1,0 +1,64 @@
+Uploaded File Name : CME New Site_HOT 11060266 EastJava.xls | Date Time : 14/06/2011 16:11 | Uploaded by : Pramono | UserType : N
+Processed Records : 18
+
+
+Uploaded File Name : CME New Site_HOT 11060265 EastJava.xls | Date Time : 14/06/2011 16:11 | Uploaded by : Pramono | UserType : N
+Processed Records : 7
+
+
+Uploaded File Name : CME New Site_HOT 11060267.xls | Date Time : 14/06/2011 16:18 | Uploaded by : Pramono | UserType : N
+Processed Records : 9
+
+
+Uploaded File Name : eBAST_Upload PO_HOT 11090395.xls | Date Time : 14/06/2011 18:39 | Uploaded by : Pramono | UserType : N
+Processed Records : 3
+
+
+Uploaded File Name : Upload_HOT 11040480.xls | Date Time : 20/06/2011 20:44 | Uploaded by : Pramono | UserType : N
+Processed Records : 122
+Missing Workpackage Id : 1
+
+
+Uploaded File Name : Upload_HOT 11040480.xls | Date Time : 20/06/2011 20:55 | Uploaded by : Pramono | UserType : N
+Processed Records : 123
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11040490.xls | Date Time : 21/06/2011 14:34 | Uploaded by : Pramono | UserType : N
+Processed Records : 25
+Updated Sites : 3
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 10081023.xls | Date Time : 21/06/2011 18:16 | Uploaded by : Pramono | UserType : N
+Processed Records : 11
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 10081023.xls | Date Time : 21/06/2011 18:21 | Uploaded by : Pramono | UserType : N
+Processed Records : 11
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 10081023.xls | Date Time : 21/06/2011 21:40 | Uploaded by : Pramono | UserType : N
+Processed Records : 11
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 10081023.xls | Date Time : 21/06/2011 21:53 | Uploaded by : Pramono | UserType : N
+Processed Records : 11
+
+
+Uploaded File Name : HOT 10081023_test.xls | Date Time : 21/06/2011 21:54 | Uploaded by : Pramono | UserType : N
+Processed Records : 11
+
+
+Uploaded File Name : HOT 11040152A-B_part2.xls | Date Time : 23/06/2011 16:25 | Uploaded by : Pramono | UserType : N
+Processed Records : 5
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11060444.xls | Date Time : 24/06/2011 16:11 | Uploaded by : Pramono | UserType : N
+Processed Records : 44
+
+
+Uploaded File Name : eBAST_Upload 2G_TI_HOT 11000328.xls | Date Time : 27/06/2011 09:57 | Uploaded by : Pramono | UserType : N
+Processed Records : 112
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11060445.xls | Date Time : 27/06/2011 16:16 | Uploaded by : Pramono | UserType : N
+Processed Records : 13

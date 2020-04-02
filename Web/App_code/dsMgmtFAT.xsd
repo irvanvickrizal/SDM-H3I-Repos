@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMgmtFAT" targetNamespace="http://tempuri.org/dsMgmtFAT.xsd" xmlns:mstns="http://tempuri.org/dsMgmtFAT.xsd" xmlns="http://tempuri.org/dsMgmtFAT.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMgmtFAT" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsMgmtFAT" msprop:Generator_DataSetName="dsMgmtFAT">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsFAT" msprop:Generator_UserTableName="dsFAT" msprop:Generator_RowDeletedName="dsFATRowDeleted" msprop:Generator_RowChangedName="dsFATRowChanged" msprop:Generator_RowClassName="dsFATRow" msprop:Generator_RowChangingName="dsFATRowChanging" msprop:Generator_RowEvArgName="dsFATRowChangeEvent" msprop:Generator_RowEvHandlerName="dsFATRowChangeEventHandler" msprop:Generator_TableClassName="dsFATDataTable" msprop:Generator_TableVarName="tabledsFAT" msprop:Generator_RowDeletingName="dsFATRowDeleting" msprop:Generator_TablePropName="dsFAT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nmonth" msprop:Generator_UserColumnName="nmonth" msprop:Generator_ColumnVarNameInTable="columnnmonth" msprop:Generator_ColumnPropNameInRow="nmonth" msprop:Generator_ColumnPropNameInTable="nmonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_UserColumnName="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

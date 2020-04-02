@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ManagementPOReportSub" targetNamespace="http://tempuri.org/ManagementPOReport.xsd" xmlns:mstns="http://tempuri.org/ManagementPOReport.xsd" xmlns="http://tempuri.org/ManagementPOReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ManagementPOReportSub" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ManagementPOReport" msprop:Generator_DataSetName="ManagementPOReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ManagementPOReportSub" msprop:Generator_UserTableName="ManagementPOReportSub" msprop:Generator_RowDeletedName="ManagementPOReportSubRowDeleted" msprop:Generator_RowChangedName="ManagementPOReportSubRowChanged" msprop:Generator_RowClassName="ManagementPOReportSubRow" msprop:Generator_RowChangingName="ManagementPOReportSubRowChanging" msprop:Generator_RowEvArgName="ManagementPOReportSubRowChangeEvent" msprop:Generator_RowEvHandlerName="ManagementPOReportSubRowChangeEventHandler" msprop:Generator_TableClassName="ManagementPOReportSubDataTable" msprop:Generator_TableVarName="tableManagementPOReportSub" msprop:Generator_RowDeletingName="ManagementPOReportSubRowDeleting" msprop:Generator_TablePropName="ManagementPOReportSub">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PoNo" msprop:Generator_UserColumnName="PoNo" msprop:Generator_ColumnPropNameInRow="PoNo" msprop:Generator_ColumnVarNameInTable="columnPoNo" msprop:Generator_ColumnPropNameInTable="PoNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SiteNo" msprop:Generator_UserColumnName="SiteNo" msprop:Generator_ColumnPropNameInRow="SiteNo" msprop:Generator_ColumnVarNameInTable="columnSiteNo" msprop:Generator_ColumnPropNameInTable="SiteNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="scope" msprop:Generator_UserColumnName="scope" msprop:Generator_ColumnPropNameInRow="scope" msprop:Generator_ColumnVarNameInTable="columnscope" msprop:Generator_ColumnPropNameInTable="scopeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SiteAcpOnBAST" msprop:Generator_UserColumnName="SiteAcpOnBAST" msprop:Generator_ColumnVarNameInTable="columnSiteAcpOnBAST" msprop:Generator_ColumnPropNameInRow="SiteAcpOnBAST" msprop:Generator_ColumnPropNameInTable="SiteAcpOnBASTColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="value1" msprop:Generator_UserColumnName="value1" msprop:Generator_ColumnPropNameInRow="value1" msprop:Generator_ColumnVarNameInTable="columnvalue1" msprop:Generator_ColumnPropNameInTable="value1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="value2" msprop:Generator_UserColumnName="value2" msprop:Generator_ColumnPropNameInRow="value2" msprop:Generator_ColumnVarNameInTable="columnvalue2" msprop:Generator_ColumnPropNameInTable="value2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tValue1" msprop:Generator_UserColumnName="tValue1" msprop:Generator_ColumnPropNameInRow="tValue1" msprop:Generator_ColumnVarNameInTable="columntValue1" msprop:Generator_ColumnPropNameInTable="tValue1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tValue2" msprop:Generator_UserColumnName="tValue2" msprop:Generator_ColumnPropNameInRow="tValue2" msprop:Generator_ColumnVarNameInTable="columntValue2" msprop:Generator_ColumnPropNameInTable="tValue2Column" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

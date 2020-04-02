@@ -1,0 +1,26 @@
+@media(max-width:384px){
+	#slider, #carousel-example-generic{
+		height:100px !important;
+	}
+}
+@media(min-width:384px){
+	#slider, #carousel-example-generic{
+		height:150px !important;
+	}
+}
+@media(min-width:768px){
+	#slider, #carousel-example-generic{
+		height:200px !important;
+	}
+}
+@media(max-width:992px){
+	.preview{
+		background:none;
+	}
+}
+@media(min-width:992px){
+	#slider, #carousel-example-generic{
+		height:400px !important;
+	}
+}
+@media(min-width:1200px){}

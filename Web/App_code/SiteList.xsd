@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SiteList" targetNamespace="http://tempuri.org/SiteList.xsd" xmlns:mstns="http://tempuri.org/SiteList.xsd" xmlns="http://tempuri.org/SiteList.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SiteList" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SiteList" msprop:Generator_DataSetName="SiteList">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SiteList" msprop:Generator_UserTableName="SiteList" msprop:Generator_RowDeletedName="SiteListRowDeleted" msprop:Generator_TableClassName="SiteListDataTable" msprop:Generator_RowChangedName="SiteListRowChanged" msprop:Generator_RowClassName="SiteListRow" msprop:Generator_RowChangingName="SiteListRowChanging" msprop:Generator_RowEvArgName="SiteListRowChangeEvent" msprop:Generator_RowEvHandlerName="SiteListRowChangeEventHandler" msprop:Generator_TablePropName="_SiteList" msprop:Generator_TableVarName="tableSiteList" msprop:Generator_RowDeletingName="SiteListRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="epm_id" msprop:Generator_UserColumnName="epm_id" msprop:Generator_ColumnPropNameInRow="epm_id" msprop:Generator_ColumnVarNameInTable="columnepm_id" msprop:Generator_ColumnPropNameInTable="epm_idColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="email" msprop:Generator_UserColumnName="email" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInTable="emailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ara_name" msprop:Generator_UserColumnName="ara_name" msprop:Generator_ColumnPropNameInRow="ara_name" msprop:Generator_ColumnVarNameInTable="columnara_name" msprop:Generator_ColumnPropNameInTable="ara_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="rgnname" msprop:Generator_UserColumnName="rgnname" msprop:Generator_ColumnPropNameInRow="rgnname" msprop:Generator_ColumnVarNameInTable="columnrgnname" msprop:Generator_ColumnPropNameInTable="rgnnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="znname" msprop:Generator_UserColumnName="znname" msprop:Generator_ColumnPropNameInRow="znname" msprop:Generator_ColumnVarNameInTable="columnznname" msprop:Generator_ColumnPropNameInTable="znnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="site_name" msprop:Generator_UserColumnName="site_name" msprop:Generator_ColumnPropNameInRow="site_name" msprop:Generator_ColumnVarNameInTable="columnsite_name" msprop:Generator_ColumnPropNameInTable="site_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="site_no" msprop:Generator_UserColumnName="site_no" msprop:Generator_ColumnPropNameInRow="site_no" msprop:Generator_ColumnVarNameInTable="columnsite_no" msprop:Generator_ColumnPropNameInTable="site_noColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

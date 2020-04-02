@@ -1,0 +1,884 @@
+body{
+	margin:0px;
+}
+
+@font-face {
+    font-family: "Segoe UI Web Light";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Segoe UI Light"), local("Segoe UI"), local("HelveticaNeue-Light");
+    unicode-range: U+0000-00FF, U+0300-036F;
+}
+@font-face {
+    font-family: "Segoe UI Web Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI"), local("Helvetica Neue");
+    unicode-range: U+0000-00FF, U+0300-036F;
+}
+@font-face {
+    font-family: "Segoe UI Web Semibold";
+    font-style: normal;
+    font-weight: bold;
+    src: local("Segoe UI Semibold"), local("Segoe UI Bold"), local("Segoe UI"), local("HelveticaNeue-Medium");
+    unicode-range: U+0000-00FF, U+0300-036F;
+}
+input[type="password"], input[type="email"] {
+    ime-mode: inactive;
+}
+input[type="email"], .ltr_override {
+    direction: ltr;
+}
+.secondary {
+    color: #666;
+}
+*:root input[type="submit"] {
+    background-color: rgba(182, 182, 182, 0.7);
+    border: 0 none;
+    color: #212121;
+    font-family: "Segoe UI Semibold","Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Medium","Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    height: 2.142em;
+    min-width: 6em;
+    padding: 3px 12px 5px;
+}
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner {
+    border: 0 none;
+}
+*:root input[type="submit"]:hover {
+    background-color: rgba(205, 205, 205, 0.82);
+}
+*:root input[type="submit"]:active {
+    background-color: #212121;
+    color: #fff;
+}
+*:root input[type="submit"]:focus:not(.c_nobdr) {
+    outline: 1px dotted #212121;
+}
+*:root input.default[type="submit"] {
+    background-color: #2672ec;
+    color: #fff;
+}
+*:root input.default[type="submit"]:hover {
+    background-color: #5a94f1;
+}
+*:root input.default[type="submit"]:active, *:root input.default[type="submit"]:hover:active {
+    background-color: #212121;
+}
+*:root input[type="submit"]:disabled {
+    background-color: rgba(202, 202, 202, 0.49) !important;
+    color: rgba(33, 33, 33, 0.49) !important;
+}
+*:root input[type="password"], *:root input[type="email"] {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #bababa;
+    color: #212121;
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;
+    font-size: 100%;
+    padding: 4px 8px;
+    width: 18.544em;
+}
+*:root input[type="password"], *:root input[type="email"] {
+    height: 1.571em;
+}
+*:root input[type="password"]:hover, *:root input[type="email"]:hover {
+    border-color: #8f8f8f;
+}
+*:root input[type="password"]:focus, *:root input[type="email"]:focus {
+    border-color: #5c5c5c;
+    outline: medium none;
+}
+*:root input[type="password"]:disabled, *:root input[type="email"]:disabled {
+    background-color: rgba(202, 202, 202, 0.49);
+    border-color: rgba(0, 0, 0, 0.15);
+    color: rgba(33, 33, 33, 0.27);
+}
+:root input[type="checkbox"] {
+    cursor: default;
+    float: left;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 19px;
+}
+BODY:not(.IE_M9) input[type="checkbox"] {
+    
+}
+:root input[type="checkbox"] + label {
+    background: url("hig/img/controls.png") no-repeat scroll left top, url("hig/img/controls.png") no-repeat scroll left top, url("hig/img/controls.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    cursor: default;
+    display: inline-block;
+    height: 19px;
+    line-height: 19px;
+    padding-left: 24px;
+}
+:root input[type="checkbox"] + label {
+    background-position: left -38px;
+}
+:root input[type="checkbox"]:checked + label {
+    background-position: left 38px, left -114px, left -38px;
+}
+:root input[type="checkbox"]:active + label, *:root input[type="checkbox"] + label:active {
+    background-position: left -57px;
+}
+:root input[type="checkbox"]:active:checked + label, *:root input[type="checkbox"]:checked + label:active {
+    background-position: left 38px, left -152px, left -57px;
+}
+:root input[type="checkbox"]:disabled + label {
+    background-position: left -76px;
+}
+:root input[type="checkbox"]:disabled:checked + label {
+    background-position: left 38px, left -133px, left -76px;
+}
+:root input[type="checkbox"]:focus:not(.c_nobdr) + label:not(.c_nobdr) {
+    background-position: left 0px, left 38px, left -38px;
+}
+:root input[type="checkbox"]:focus:checked:not(.c_nobdr) + label:not(.c_nobdr) {
+    background-position: left 0px, left -114px, left -38px;
+}
+:root input[type="checkbox"]:focus:active:not(.c_nobdr) + label:not(.c_nobdr), *:root input[type="checkbox"]:focus:not(.c_nobdr) + label:active:not(.c_nobdr) {
+    background-position: left 0px, left 38px, left -57px;
+}
+:root input[type="checkbox"]:focus:active:checked:not(.c_nobdr) + label:not(.c_nobdr), *:root input[type="checkbox"]:focus:checked:not(.c_nobdr) + label:active:not(.c_nobdr) {
+    background-position: left 0px, left -152px, left -57px;
+}
+.errorDiv {
+    color: #c85305;
+    font-size: 86%;
+    line-height: 178%;
+    margin-bottom: 12px;
+    margin-top: 18px;
+    white-space: normal;
+}
+* {
+	line-height: 142%;
+	max-width: 100%;
+}
+body {
+    background-color: #fff;
+    background-image: none;
+    background-position: left top;
+    background-repeat: repeat;
+    color: #000;
+    direction: ltr;
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;
+    font-size: 88%;
+    margin: 0;
+	height: 100% auto;
+	width: 100% auto;
+}
+label {
+    color: #000;
+}
+input, select, textarea, button {
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;
+    font-size: 100%;
+}
+h1 {
+    color: #000;
+}
+h1, h2, h3 {
+    font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+    font-size: 150%;
+}
+h4, h5, h6 {
+    font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 5px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+p {
+    margin: 0 0 1.35em;
+}
+a {
+    color: #2672ec;
+    cursor: pointer;
+    font-weight: inherit;
+    text-decoration: none;
+}
+a:visited {
+    color: #2672ec;
+}
+ul {
+    list-style-type: disc;
+    margin: 0 0 20px 1em;
+    padding: 0 0 0 1em;
+}
+li {
+    margin: 0 0 3px;
+}
+font {
+    line-height: normal;
+}
+cssTextLogo {
+    font-size: 115%;
+    font-weight: bold;
+}
+html {
+    overflow: auto;
+}
+form {
+    margin: 0;
+}
+img {
+max-width:100%;
+max-height:100%;	
+}
+div.centerParent {
+    text-align: center;
+}
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+div.floatLeft {
+    float: left;
+}
+div.signInHeader {
+    padding-left: 20%
+}
+div.footer {
+    background-color: #eee;
+    bottom: 0;
+    font-size: 86%;
+    height: 88px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: 250000;
+}
+div.footer div.mslogo {
+    background-image: url("hig/img/controls.png");
+    background-position: left -774px;
+    float: right;
+    height: 16px;
+    margin-top: 19px;
+    width: 68px;
+}
+table.footer {
+    padding: 17px 0 20px;
+    width: 100%;
+}
+td.footerspace {
+    width: 10px;
+}
+a.footerlink {
+    color: #2672ec;
+}
+span.ltr {
+    direction: ltr;
+    display: inline-block;
+}
+input[type="password"], input[type="email"] {
+    height: 1.466em;
+    padding: 4px 8px;
+    width: 302px;
+}
+*:root input[type="password"], *:root input[type="email"] {
+    width: 302px;
+}
+div.textbox, select {
+    width: 100%;
+}
+div.section {
+    margin-bottom: 30px;
+}
+div.section:last-child {
+    margin-bottom: 0;
+}
+div.row, div.section > div {
+    margin-bottom: 8px;
+}
+div.row.small, div.section > div.small {
+    font-size: 86%;
+    margin-bottom: 6px;
+}
+div.row.label, div.section > div.label {
+    font-size: 86%;
+    margin-bottom: 4px;
+}
+h1.loginhead {
+    color: #666;
+    font-size: 250%;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+div.errorDiv.first {
+    margin-top: 0;
+}
+input, button {
+}
+
+
+*:root input[type="submit"] {
+    background-color: rgba(182, 182, 182, 0.7);
+    border: 0 none;
+    color: #212121;
+    font-family: "Segoe UI Semibold","Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Medium","Helvetica Neue",Arial,sans-serif;
+    font-size: 100%;
+    height: 2.142em;
+    min-width: 6em;
+    padding: 3px 12px 5px;
+}
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner {
+    border: 0 none;
+}
+*:root input[type="submit"]:hover {
+    background-color: rgba(205, 205, 205, 0.82);
+}
+*:root input[type="submit"]:active {
+    background-color: #212121;
+    color: #fff;
+}
+*:root input[type="submit"]:focus:not(.c_nobdr) {
+    outline: 1px dotted #212121;
+}
+*:root input.default[type="submit"]:hover {
+    background-color: #5ab7e3;
+}
+*:root input.default[type="submit"]:active, *:root input.default[type="submit"]:hover:active {
+    background-color: #212121;
+}
+*:root input[type="submit"]:disabled {
+    background-color: rgba(202, 202, 202, 0.49) !important;
+    color: rgba(33, 33, 33, 0.49) !important;
+}
+:root input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #bababa;
+    color: #212121;
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;
+    font-size: 100%;
+    padding: 4px 8px;
+    width: 18.544em;
+}
+:root input[type="text"] {
+    height: 1.571em;
+}
+:root input[type="text"]:hover {
+    border-color: #8f8f8f;
+}
+:root input[type="text"]:focus {
+    border-color: #5c5c5c;
+    outline: medium none;
+}
+:root input[type="text"]:disabled {
+    background-color: rgba(202, 202, 202, 0.49);
+    border-color: rgba(0, 0, 0, 0.15);
+    color: rgba(33, 33, 33, 0.27);
+}
+#uxp_ftr_control {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    clear: both;
+    color: #000;
+    font-size: 86%;
+    width: 100%;
+}
+#uxp_ftr_control td {
+    padding: 0;
+    vertical-align: top;
+}
+#uxp_ftr_control ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+#uxp_ftr_control ul li {
+    float: left;
+    padding: 5px 10px;
+}
+#uxp_ftr_control ul li a {
+    white-space: nowrap;
+}
+#uxp_ftr_control ul li span {
+    color: #666;
+    white-space: nowrap;
+}
+* {
+    line-height: 142%;
+}
+body {
+    background-color: #fff;
+    background-image: none;
+    background-position: left top;
+    background-repeat: repeat;
+    color: #000;
+    direction: ltr;
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;
+    font-size: 88%;
+    margin: 0;
+}
+label {
+    color: #000;
+}
+input, select, textarea, button {
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;
+    font-size: 100%;
+}
+h1 {
+    color: #000;
+}
+h1, h2, h3 {
+    font-family: "Segoe UI Light","Segoe UI Web Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","HelveticaNeue-Light","Helvetica Neue",Arial,sans-serif;
+    font-size: 150%;
+}
+h4, h5, h6 {
+    font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 5px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+p {
+    margin: 0 0 1.35em;
+}
+a {
+    color: #00709f;
+    cursor: pointer;
+    font-weight: inherit;
+    text-decoration: none;
+}
+a:visited {
+    color: #00709f;
+}
+ul {
+    list-style-type: disc;
+    margin: 0 0 20px 1em;
+    padding: 0 0 0 1em;
+}
+li {
+    margin: 0 0 3px;
+}
+font {
+    line-height: normal;
+}
+@font-face {
+    font-family: "Segoe UI Web Light";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Segoe UI Light"), local("Segoe UI"), local("HelveticaNeue-Light");
+    unicode-range: U+0000-00FF, U+0300-036F;
+}
+@font-face {
+    font-family: "Segoe UI Web Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Segoe UI"), local("Helvetica Neue");
+    unicode-range: U+0000-00FF, U+0300-036F;
+}
+@font-face {
+    font-family: "Segoe UI Web Semibold";
+    font-style: normal;
+    font-weight: bold;
+    src: local("Segoe UI Semibold"), local("Segoe UI Bold"), local("Segoe UI"), local("HelveticaNeue-Medium");
+    unicode-range: U+0000-00FF, U+0300-036F;
+}
+@keyframes hidedotsfallback {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+@keyframes hidedotsfallback {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+@keyframes makedotspin1 {
+0% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+35% {
+    transform: rotate(360deg);
+}
+72% {
+    opacity: 1;
+}
+73% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin2 {
+4% {
+    opacity: 0;
+}
+5% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+40% {
+    transform: rotate(360deg);
+}
+77% {
+    opacity: 1;
+}
+78% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin3 {
+9% {
+    opacity: 0;
+}
+10% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+45% {
+    transform: rotate(360deg);
+}
+82% {
+    opacity: 1;
+}
+83% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin4 {
+14% {
+    opacity: 0;
+}
+15% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+50% {
+    transform: rotate(360deg);
+}
+87% {
+    opacity: 1;
+}
+88% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin5 {
+19% {
+    opacity: 0;
+}
+20% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+55% {
+    transform: rotate(360deg);
+}
+92% {
+    opacity: 1;
+}
+93% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin1 {
+0% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+35% {
+    transform: rotate(360deg);
+}
+72% {
+    opacity: 1;
+}
+73% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin2 {
+4% {
+    opacity: 0;
+}
+5% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+40% {
+    transform: rotate(360deg);
+}
+77% {
+    opacity: 1;
+}
+78% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin3 {
+9% {
+    opacity: 0;
+}
+10% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+45% {
+    transform: rotate(360deg);
+}
+82% {
+    opacity: 1;
+}
+83% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin4 {
+14% {
+    opacity: 0;
+}
+15% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+50% {
+    transform: rotate(360deg);
+}
+87% {
+    opacity: 1;
+}
+88% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotspin5 {
+19% {
+    opacity: 0;
+}
+20% {
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+55% {
+    transform: rotate(360deg);
+}
+92% {
+    opacity: 1;
+}
+93% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+100% {
+    opacity: 0;
+    transform: rotate(750deg);
+}
+}
+@keyframes makedotfly {
+0% {
+    animation-timing-function: cubic-bezier(0.01, 0.55, 1, 1);
+    left: 0;
+}
+32% {
+    left: 40%;
+}
+62% {
+    animation-timing-function: cubic-bezier(0.3, 0.1, 1, 1);
+    left: 58%;
+}
+80% {
+    left: 105%;
+}
+100% {
+    left: 105%;
+}
+}
+@keyframes makedotfly {
+0% {
+    animation-timing-function: cubic-bezier(0.01, 0.55, 1, 1);
+    left: 0;
+}
+32% {
+    left: 40%;
+}
+62% {
+    animation-timing-function: cubic-bezier(0.3, 0.1, 1, 1);
+    left: 58%;
+}
+80% {
+    left: 105%;
+}
+100% {
+    left: 105%;
+}
+}
+.m_wfp {
+    padding-top: 40px;
+}
+*:root input[type="text"] {
+    height: 22px;
+    width: 372px;
+}
+input[type="text"] {
+    height: 22px;
+    width: 384px;
+}
+input, button {
+}
+:root select {
+    border: 1px solid #bababa;
+    height: 32px;
+}
+select {
+    width: 390px;
+}
+#m_wf {
+    background-color: #eee;
+}
+#m_wf #uxp_ftr_control {
+    background-color: #eee;
+    margin: 0 auto;
+    width: 894px;
+}
+#m_wf #uxp_ftr_control ul li {
+    float: left;
+    margin-bottom: 0;
+    padding: 0 10px 20px;
+}
+#m_wf ul {
+    padding: 0;
+}
+#m_wf ul li:last-child {
+    padding-right: 0;
+}
+#m_wf ul {
+    float: right;
+}
+#uxp_ftr_control {
+    border-top-width: 0 !important;
+}
+div.headpad h2 {
+    color: #2f2f2f;
+    font-size: 42pt;
+    margin-bottom: 4px;
+}
+div.c_signup {
+    margin: 40px auto 0;
+    padding-bottom: 57px;
+    width: 894px;
+}
+div.module {
+    margin-bottom: 44px;
+    width: 100%;
+}
+div.helparea {
+    z-index: 1;
+}
+div.row {
+    clear: both;
+    margin: 0;
+    width: 390px;
+}
+div.row p.error {
+    color: #c85305;
+    font-size: 86%;
+    margin-bottom: 2px;
+    margin-top: 18px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+div.row p.error.first {
+    margin-top: 13px;
+}
+div.row label {
+    color: #000;
+    float: left;
+    font-size: 86%;
+    padding-top: 10px;
+    text-align: left;
+    width: 390px;
+}
+div.row label {
+    padding-bottom: 4px;
+}
+
+:root div.row input.mediuminput {
+    width: 180px;
+	margin-left:10px;
+	
+}
+
+:root div.row input.basicinput {
+    width: 372px;
+}
+div.row input.namepad {
+    margin-right: 20px;
+}
+#createbuttons {
+    margin: 27px 0 0;
+}
+
+div.row select.PhoneCode{
+	width:100px;
+	margin-right:10px;
+}
+div.row select.gender {
+    width: 160px;
+}
+div.row br {
+    clear: left;
+}

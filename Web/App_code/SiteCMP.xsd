@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SiteCMP" targetNamespace="http://tempuri.org/SiteCMP.xsd" xmlns:mstns="http://tempuri.org/SiteCMP.xsd" xmlns="http://tempuri.org/SiteCMP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SiteCMP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SiteCMP" msprop:Generator_DataSetName="SiteCMP">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RPTSiteCMPDetails" msprop:Generator_UserTableName="RPTSiteCMPDetails" msprop:Generator_RowDeletedName="RPTSiteCMPDetailsRowDeleted" msprop:Generator_RowChangedName="RPTSiteCMPDetailsRowChanged" msprop:Generator_RowClassName="RPTSiteCMPDetailsRow" msprop:Generator_RowChangingName="RPTSiteCMPDetailsRowChanging" msprop:Generator_RowEvArgName="RPTSiteCMPDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="RPTSiteCMPDetailsRowChangeEventHandler" msprop:Generator_TableClassName="RPTSiteCMPDetailsDataTable" msprop:Generator_TableVarName="tableRPTSiteCMPDetails" msprop:Generator_RowDeletingName="RPTSiteCMPDetailsRowDeleting" msprop:Generator_TablePropName="RPTSiteCMPDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PONo" msprop:Generator_UserColumnName="PONo" msprop:Generator_ColumnVarNameInTable="columnPONo" msprop:Generator_ColumnPropNameInRow="PONo" msprop:Generator_ColumnPropNameInTable="PONoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Site_No" msprop:Generator_UserColumnName="Site_No" msprop:Generator_ColumnVarNameInTable="columnSite_No" msprop:Generator_ColumnPropNameInRow="Site_No" msprop:Generator_ColumnPropNameInTable="Site_NoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SiteCTDT" msprop:Generator_UserColumnName="SiteCTDT" msprop:Generator_ColumnVarNameInTable="columnSiteCTDT" msprop:Generator_ColumnPropNameInRow="SiteCTDT" msprop:Generator_ColumnPropNameInTable="SiteCTDTColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SiteDocChkDt" msprop:Generator_UserColumnName="SiteDocChkDt" msprop:Generator_ColumnVarNameInTable="columnSiteDocChkDt" msprop:Generator_ColumnPropNameInRow="SiteDocChkDt" msprop:Generator_ColumnPropNameInTable="SiteDocChkDtColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Int_Date" msprop:Generator_UserColumnName="Int_Date" msprop:Generator_ColumnVarNameInTable="columnInt_Date" msprop:Generator_ColumnPropNameInRow="Int_Date" msprop:Generator_ColumnPropNameInTable="Int_DateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Site_On_AirDt" msprop:Generator_UserColumnName="Site_On_AirDt" msprop:Generator_ColumnPropNameInRow="Site_On_AirDt" msprop:Generator_ColumnVarNameInTable="columnSite_On_AirDt" msprop:Generator_ColumnPropNameInTable="Site_On_AirDtColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Site_BASTDt" msprop:Generator_UserColumnName="Site_BASTDt" msprop:Generator_ColumnPropNameInRow="Site_BASTDt" msprop:Generator_ColumnVarNameInTable="columnSite_BASTDt" msprop:Generator_ColumnPropNameInTable="Site_BASTDtColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Int_Up_Date" msprop:Generator_UserColumnName="Int_Up_Date" msprop:Generator_ColumnVarNameInTable="columnInt_Up_Date" msprop:Generator_ColumnPropNameInRow="Int_Up_Date" msprop:Generator_ColumnPropNameInTable="Int_Up_DateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Doc_StDate" msprop:Generator_UserColumnName="Doc_StDate" msprop:Generator_ColumnVarNameInTable="columnDoc_StDate" msprop:Generator_ColumnPropNameInRow="Doc_StDate" msprop:Generator_ColumnPropNameInTable="Doc_StDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Doc_EndDate" msprop:Generator_UserColumnName="Doc_EndDate" msprop:Generator_ColumnVarNameInTable="columnDoc_EndDate" msprop:Generator_ColumnPropNameInRow="Doc_EndDate" msprop:Generator_ColumnPropNameInTable="Doc_EndDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NSN_Appr_Cmp_Date" msprop:Generator_UserColumnName="NSN_Appr_Cmp_Date" msprop:Generator_ColumnVarNameInTable="columnNSN_Appr_Cmp_Date" msprop:Generator_ColumnPropNameInRow="NSN_Appr_Cmp_Date" msprop:Generator_ColumnPropNameInTable="NSN_Appr_Cmp_DateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CUST_Appr_Cmp_Date" msprop:Generator_UserColumnName="CUST_Appr_Cmp_Date" msprop:Generator_ColumnVarNameInTable="columnCUST_Appr_Cmp_Date" msprop:Generator_ColumnPropNameInRow="CUST_Appr_Cmp_Date" msprop:Generator_ColumnPropNameInTable="CUST_Appr_Cmp_DateColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

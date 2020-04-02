@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMgmtBAST" targetNamespace="http://tempuri.org/dsMgmtBAST.xsd" xmlns:mstns="http://tempuri.org/dsMgmtBAST.xsd" xmlns="http://tempuri.org/dsMgmtBAST.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMgmtBAST" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsMgmtBAST" msprop:Generator_DataSetName="dsMgmtBAST">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsBAST" msprop:Generator_UserTableName="dsBAST" msprop:Generator_RowDeletedName="dsBASTRowDeleted" msprop:Generator_TableClassName="dsBASTDataTable" msprop:Generator_RowChangedName="dsBASTRowChanged" msprop:Generator_RowClassName="dsBASTRow" msprop:Generator_RowChangingName="dsBASTRowChanging" msprop:Generator_RowEvArgName="dsBASTRowChangeEvent" msprop:Generator_RowEvHandlerName="dsBASTRowChangeEventHandler" msprop:Generator_TablePropName="dsBAST" msprop:Generator_TableVarName="tabledsBAST" msprop:Generator_RowDeletingName="dsBASTRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nmonth" msprop:Generator_UserColumnName="nmonth" msprop:Generator_ColumnPropNameInRow="nmonth" msprop:Generator_ColumnVarNameInTable="columnnmonth" msprop:Generator_ColumnPropNameInTable="nmonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_UserColumnName="total" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInTable="totalColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,57 @@
+
+alter PROCEDURE [dbo].[uspManagementPOReportSub]                
+AS                                    
+begin                                
+set nocount on                                
+set ansi_warnings off                
+select PoNo, SiteNo, Scope, siteintegration AS SiteAcpOnBAST, value1, value2,   
+(select sum(value1) from poepmsite where siteintegration is not null and status='Active' and   
+ PoNo=pe.PoNo and Scope=pe.Scope  
+group by PoNo, Scope) as tValue1,  
+(select sum(value2) from poepmsite where siteintegration is not null and status='Active' and  
+ PoNo=pe.PoNo and Scope=pe.Scope  
+group by PoNo, Scope) as tValue2  
+from poepmsite pe where siteintegration is not null and status='Active'    
+end  
+set quoted_identifier off                                
+set ansi_nulls on   
+
+go
+
+  
+alter PROCEDURE [dbo].[uspManagementPOReportSub1]            
+AS                                
+begin                            
+set nocount on                            
+set ansi_warnings off            
+select PoNo, SiteNo, Scope, ACT_9500 AS SiteAcpOnBAST, value1, value2,   
+(select sum(value1) from poepmsite where ACT_9500 is not null and status='Active' and   
+ PoNo=pe.PoNo and Scope=pe.Scope  
+group by PoNo, Scope) as tValue1,  
+(select sum(value2) from poepmsite where ACT_9500 is not null and status='Active' and  
+ PoNo=pe.PoNo and Scope=pe.Scope  
+group by PoNo, Scope) as tValue2  
+from poepmsite pe where ACT_9500 is not null and status='Active'    
+end         
+set quoted_identifier off                            
+set ansi_nulls on   
+
+go
+
+  
+alter PROCEDURE [dbo].[uspManagementPOReportSub2]            
+AS                                
+begin                            
+set nocount on                            
+set ansi_warnings off            
+select PoNo, SiteNo, Scope, ACT_9750 AS SiteAcpOnBAST, value1, value2,   
+(select sum(value1) from poepmsite where ACT_9750 is not null and status='Active' and   
+ PoNo=pe.PoNo and Scope=pe.Scope  
+group by PoNo, Scope) as tValue1,  
+(select sum(value2) from poepmsite where ACT_9750 is not null and status='Active' and  
+ PoNo=pe.PoNo and Scope=pe.Scope  
+group by PoNo, Scope) as tValue2  
+from poepmsite pe where ACT_9750 is not null and status='Active'    
+end         
+set quoted_identifier off                            
+set ansi_nulls on   

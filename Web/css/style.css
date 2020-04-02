@@ -1,0 +1,126 @@
+a{
+	color:#58585a;
+}
+#wrapper{
+	padding-bottom:40px;
+}
+#header{
+	background: url("../images/header_border.jpg") bottom center no-repeat;
+	background-size:100% 6px;
+	padding-bottom:5px;
+	background-color:#ffffff;
+}
+#main_menu{
+	margin-top:10px;
+}
+#secondary_menu li:first-child{
+	border-top:1px solid #c9cacc;
+}
+#secondary_menu li{
+	border-bottom:1px solid #c9cacc;
+}
+#slider, #carousel-example-generic{
+	height:400px;
+	overflow:hidden;
+}
+.sidebar{
+	padding-bottom:10px;
+}
+.sidebar h3 img{
+	width:50%;
+	padding:5px;
+	border:1px solid #c9cacc;
+	margin-bottom:10px;
+}
+.carousel-inner .item img{
+	width:100%;
+}
+.nav.nav-pills.nav-orange li.active>a,
+.nav.nav-pills.nav-orange li>a:hover{
+	/*background-color:#fcb040;*/
+	background-color:#272262;
+	color:#ffffff;
+}
+.slicknav>li>a {
+	display: inline-block;
+  vertical-align: middle;
+}
+.primary{
+	margin-top:10px;
+}
+.preview{
+	background:url("../images/v_border.jpg") right repeat-y;
+	padding-bottom:10px;
+}
+
+
+.preview h3{
+	margin-top:0;
+	background-color:#fcb040;
+	font-size:18px;
+	padding:5px 10px;
+}
+.search{
+	margin-bottom:10px;
+}
+.map{
+	margin-bottom:10px;
+}
+.address{
+	background:url("/images/needle.jpg") left top no-repeat;
+	padding-left:80px;
+	padding-top:30px;
+	min-height:100px;
+}
+.form.login{
+	padding-top:10px;
+} 
+#main_menu li:hover .dropdown-menu {
+  display: block;
+}
+#main_menu .dropdown-menu{
+	top:95%;
+}
+#menu_mgt tr tr tr:hover{
+	background-color:#99E5FF;
+}
+h1,h2,h3,div,p{font-family:Arial, sans-serif !important;}
+
+.primary table, .primary td, .primary th{
+	border:solid 1px;
+	padding:1px;
+}
+
+.cke_dialog_contents table, .cke_dialog_contents td, #ctl00_cphContent_Up1 td, #ctl00_cphContent_Up1 table,
+#ctl00_cphContent_galleryID_DLAlbums, #ctl00_cphContent_galleryID_DLAlbums td,
+#ctl00_cphContent_galleryID_DlPhotos, #ctl00_cphContent_galleryID_DlPhotos td{
+	border:0 !important;
+}
+
+.primary th{
+	text-align: center;
+	background-color:#FCE8B1;
+}
+
+.primary ol, .primary ul{
+	list-style-position: outside;
+	padding-left:20px;
+}
+
+.primary li ol, .primary li ul{
+	padding-left:20px;
+}
+
+em{
+	font-style:italic;
+}
+/*
+#main_menu .subdropdown{
+	position:relative;
+}
+#main_menu .subdropdown .dropdown-menus{
+	position:absolute;
+	top:0;
+	left:100%;
+}*/
+

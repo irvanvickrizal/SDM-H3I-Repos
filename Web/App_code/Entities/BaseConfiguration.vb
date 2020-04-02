@@ -1,0 +1,36 @@
+﻿Imports Microsoft.VisualBasic
+
+Public Class BaseConfiguration
+    Public Shared FORM_TYPE_SOAC As String = "SOAC"
+    Public Shared FORM_TYPE_SOAC_READY_CREATION_NOTIFICATION As String = "SOAC_ReadyCreation"
+    Public Shared FORM_TYPE_SOAC_DONE As String = "SOAC_Done"
+    Public Shared FORM_TYPE_BAUT_APPROVED As String = "BAUT APPROVED"
+    Public Shared FORM_TYPE_WCC As String = "WCC"
+    Public Shared FORM_TYPE_ATP As String = "ATP"
+    Public Shared FORM_TYPE_QC As String = "QC"
+    Public Shared FORM_TYPE_GENERAL As String = "GENERAL"
+    Public Shared FORM_TYPE_CRCO As String = "CRCO"
+    Public Shared PERMISSION_CATEGORY_FORM As String = "FORM"
+    Public Shared PERMISSION_CATEGORY_REPORT As String = "REPORT"
+    Public Shared DATA_NY_DEFINED As String = "Not Yet Defined"
+    Public Shared CREATE_CHECKLIST As String = "Create Checklist"
+    Public Shared INITIATE_DOCUMENT As String = "Initiate Doc"
+    Public Shared SOAC_TABLE_TRANSACTION As String = "WFSOACTransaction"
+    Public Shared WCC_TABLE_TRANSACTION As String = "WFWCCTransaction"
+    Public Shared GENERAL_TABLE_TRANSACTION As String = "WFTransaction"
+    Public Shared DOC_TYPE_ONLINE As String = "O"
+    Public Shared DOC_TYPE_SCAN As String = "D"
+    Public Shared TRANSACTION_TYPE_GENERAL As String = "GENERAL"
+    Public Shared TRANSACTION_TYPE_CR As String = "Change Request"
+    Public Shared TRANSACTION_TYPE_CO As String = "Change Order"
+    Public Shared TRANSACTION_TYPE_SOAC As String = "SOAC"
+    Public Shared MAIL_PRIMARY_CONFIG As String = "Mail_Primary_Config"
+
+    Public Shared Activity_Login_Failed As String = "User Login Failed"
+    Public Shared Activity_Login_Blocked As String = "User Login Blocked due to 3 times wrong password"
+    Public Shared Activity_Generate_Doc As String = "Generate Doc"
+    Public Shared Activity_Approved_Doc As String = "Approved Doc"
+    Public Shared Activity_Rejected_Doc As String = "Rejected Doc"
+    Public Shared Activity_Password_DG_Failed As String = "Wrong Sign Password"
+
+End Class

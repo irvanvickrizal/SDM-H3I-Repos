@@ -1,0 +1,76 @@
+/**************************** jquery ui *******************************/
+@import "../JQueryThemes/redmond/jquery-ui-1.8.11.custom.css";
+
+/**************************** jquery validate *************************/
+@import "core.css";
+@import "cmxformTemplate.css";
+@import "cmxform.css";
+
+form.MasterPageForm1 { width: 50em; }
+
+em.error {
+    background: url("../Images/Unchecked.gif") no-repeat 0px 0px;
+    padding-left: 16px;
+}
+
+em.success {
+    background: url("../Images/Checked.gif") no-repeat 0px 0px;
+    padding-left: 16px;
+}
+
+form.MasterPageForm1 label.error {
+    margin-left: auto;
+}
+
+em.error { color: black; }
+#warning { display: none; }
+
+/****************************** body ********************************/
+body, textarea {
+   font-family: 'lucida grande', helvetica, verdana, arial, sans-serif;
+   font-size: 12px;
+   color: #000000;
+}
+
+a:link, a:visited {
+   text-decoration: underline;
+}
+
+a:hover {
+   text-decoration: none;
+   border-bottom-width: 1px;
+}
+
+/****************************** gridview ****************************/
+.gridviewPagerStyle a {
+    font-size: smaller;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-top: solid 1px #777777;
+    border-right: solid 1px #333333;
+    border-bottom: solid 1px #333333;
+    border-left: solid 1px #777777;
+    background-color: White;
+}
+
+.gridviewPagerStyle span {
+    font-size: smaller;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-top: solid 1px #777777;
+    border-right: solid 1px #333333;
+    border-bottom: solid 1px #333333;
+    border-left: solid 1px #777777;
+    background-color: #EFF3FB;
+}
+
+.gridviewGridLines td {
+    border: 1px solid #E5E5E5;
+}
+
+.gridviewHighlight {
+    background-color: Black;
+}

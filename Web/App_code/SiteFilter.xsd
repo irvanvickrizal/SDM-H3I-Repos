@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SiteFilter" targetNamespace="http://tempuri.org/SiteFilter.xsd" xmlns:mstns="http://tempuri.org/SiteFilter.xsd" xmlns="http://tempuri.org/SiteFilter.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SiteFilter" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SiteFilter" msprop:Generator_DataSetName="SiteFilter">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SiteFilter" msprop:Generator_UserTableName="SiteFilter" msprop:Generator_RowDeletedName="SiteFilterRowDeleted" msprop:Generator_RowChangedName="SiteFilterRowChanged" msprop:Generator_RowClassName="SiteFilterRow" msprop:Generator_RowChangingName="SiteFilterRowChanging" msprop:Generator_RowEvArgName="SiteFilterRowChangeEvent" msprop:Generator_RowEvHandlerName="SiteFilterRowChangeEventHandler" msprop:Generator_TableClassName="SiteFilterDataTable" msprop:Generator_TableVarName="tableSiteFilter" msprop:Generator_RowDeletingName="SiteFilterRowDeleting" msprop:Generator_TablePropName="_SiteFilter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PoNo" msprop:Generator_UserColumnName="PoNo" msprop:Generator_ColumnPropNameInRow="PoNo" msprop:Generator_ColumnVarNameInTable="columnPoNo" msprop:Generator_ColumnPropNameInTable="PoNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SiteNo" msprop:Generator_UserColumnName="SiteNo" msprop:Generator_ColumnPropNameInRow="SiteNo" msprop:Generator_ColumnVarNameInTable="columnSiteNo" msprop:Generator_ColumnPropNameInTable="SiteNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Band" msprop:Generator_UserColumnName="Band" msprop:Generator_ColumnPropNameInRow="Band" msprop:Generator_ColumnVarNameInTable="columnBand" msprop:Generator_ColumnPropNameInTable="BandColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AntennaName" msprop:Generator_UserColumnName="AntennaName" msprop:Generator_ColumnPropNameInRow="AntennaName" msprop:Generator_ColumnVarNameInTable="columnAntennaName" msprop:Generator_ColumnPropNameInTable="AntennaNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkPkgId" msprop:Generator_UserColumnName="WorkPkgId" msprop:Generator_ColumnPropNameInRow="WorkPkgId" msprop:Generator_ColumnVarNameInTable="columnWorkPkgId" msprop:Generator_ColumnPropNameInTable="WorkPkgIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_UserColumnName="Remarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkPackageName" msprop:Generator_UserColumnName="WorkPackageName" msprop:Generator_ColumnVarNameInTable="columnWorkPackageName" msprop:Generator_ColumnPropNameInRow="WorkPackageName" msprop:Generator_ColumnPropNameInTable="WorkPackageNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Rsite" msprop:Generator_UserColumnName="Rsite" msprop:Generator_ColumnPropNameInRow="Rsite" msprop:Generator_ColumnVarNameInTable="columnRsite" msprop:Generator_ColumnPropNameInTable="RsiteColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

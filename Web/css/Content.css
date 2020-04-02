@@ -1,0 +1,282 @@
+﻿body
+{
+    background-color: #ffffff;
+}
+.HeaderPanel
+{
+    background-color: #124191;
+    font-family: Verdana;
+    font-size: 9.5pt;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:#f3f3f3;
+    border-color:#fff;
+    border-style:solid;
+    border-width:1px;
+}
+.textLabel
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    color:black;
+}
+.textLabelBlue
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    color:#124191;
+}
+.textLabelRed
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    color:red;
+}
+.textLabelRedMark
+{
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    color:red;
+    font-weight:bold;
+}
+.textLabelField
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    width:200px;
+}
+.textSubHeaderLabelBlue
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    color:blue;
+    font-weight:bolder;
+}
+.textSubHeaderLabel
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight:bolder;
+}
+.textSubHeaderLabelnormal
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+}
+.textField
+{
+    font-family: Verdana;
+    font-size: 11px;
+}
+.textFieldforCreation
+{
+    font-family: Verdana;
+    font-size: 11px;
+    height:22px;
+    width:250px;
+}
+.textLabelBold
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    font-weight:bolder;
+    
+}
+.textLabelBoldBlue
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight:bold;
+    color:#124191;
+}
+.textHeaderBoldBlue
+{
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight:bolder;
+    color:#124191;
+}
+.textHeaderBold
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight:bolder;
+    color:#000;
+}
+.textBanner {
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    color:white;
+}
+.textBannerBold {
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-weight:bolder;
+    color:white;
+}
+
+.emptydatarow
+{
+    font-family: Trebuchet MS;
+    font-size: 8pt;
+    font-weight: bolder;
+    color: Red;
+    padding: 3px;
+}
+.buttonStyleGray
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    border-style: outset;
+    border-color: #416067;
+    border-width: 1px;
+    background-color:gray;
+    color:#fff;
+    padding: 5px;
+    cursor: pointer;
+}
+.buttonStyleBlue
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    border-style: outset;
+    border-color: #416067;
+    border-width: 1px;
+    background-color:#124191;
+    color:#fff;
+    padding: 5px;
+    cursor: pointer;
+}
+.buttonStyleGreen
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    border-style: outset;
+    border-color: #416067;
+    border-width: 1px;
+    background-color:green;
+    color:#fff;
+    padding: 5px;
+    cursor: pointer;
+}
+.gvHeader
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:black;
+    padding:4px;
+    text-align:center;
+    margin-left:4px;
+    background-color: #cfcfcf;
+    
+
+}
+.gvHeaderBlue
+{
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    color: #124191;
+    background-color:blue;
+    height:20px;
+    padding:4px;
+    background-color: #cfcfcf;
+}
+.gvOdd
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    background-color: #e6ebd3;
+}
+.gvEven
+{
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    background-color: #fff;
+    color:#000;
+}
+.gvFooter
+{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    background-color: #fff;
+    color:#000;
+}
+.gvEmptyData {
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    background-color: #fff;
+    color:red;
+    border-style:solid;
+    border-color:gray;
+    border-width:1px;
+    padding:3px;
+    width:100%;
+    text-align:left;
+}
+
+.pagebutton
+{
+    padding:4px;
+    font-family:Verdana;
+    font-size:0.65em;
+    background-color:#c3c3c3;
+    border-style:solid;
+    border-width:1px;
+    border-color:#fff;
+    text-align:center;
+    cursor:pointer;
+    width:25px;
+}
+.pagecurrent
+{
+    padding:4px;
+    font-family:Verdana;
+    font-size:0.65em;
+    font-weight:bolder;
+    background-color:#fff;
+    border-style:solid;
+    border-width:1px;
+    border-color:#fff;
+    text-align:center;
+}
+ .modalBackground {
+            background-color: Black;
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+        }
+
+        .modalPopup {
+            background-color: #FFFFFF;
+            width: 350px;
+            border: 3px solid #cfcfcf;
+            padding: 0;
+        }
+
+            .modalPopup .header {
+                background-color: #124191;
+                height: 30px;
+                color: white;
+                line-height: 30px;
+                text-align: left;
+                font-weight: bold;
+                font-family: Verdana;
+                font-size: 13px;
+                padding-left: 3px;
+                padding-bottom:3px;
+            }
+
+            .modalPopup .body {
+                min-height: 50px;
+                line-height: 30px;
+                text-align: center;
+                font-family: Verdana;
+                font-size: 12px;
+                color: red;
+            }

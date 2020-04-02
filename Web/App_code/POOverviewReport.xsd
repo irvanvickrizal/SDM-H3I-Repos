@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="POOverviewReport" targetNamespace="http://tempuri.org/POOverviewReport.xsd" xmlns:mstns="http://tempuri.org/POOverviewReport.xsd" xmlns="http://tempuri.org/POOverviewReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="POOverviewReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="POOverviewReport" msprop:Generator_DataSetName="POOverviewReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="POOverviewReport" msprop:Generator_UserTableName="POOverviewReport" msprop:Generator_RowDeletedName="POOverviewReportRowDeleted" msprop:Generator_RowChangedName="POOverviewReportRowChanged" msprop:Generator_RowClassName="POOverviewReportRow" msprop:Generator_RowChangingName="POOverviewReportRowChanging" msprop:Generator_RowEvArgName="POOverviewReportRowChangeEvent" msprop:Generator_RowEvHandlerName="POOverviewReportRowChangeEventHandler" msprop:Generator_TableClassName="POOverviewReportDataTable" msprop:Generator_TableVarName="tablePOOverviewReport" msprop:Generator_RowDeletingName="POOverviewReportRowDeleting" msprop:Generator_TablePropName="_POOverviewReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="poCat" msprop:Generator_UserColumnName="poCat" msprop:Generator_ColumnVarNameInTable="columnpoCat" msprop:Generator_ColumnPropNameInRow="poCat" msprop:Generator_ColumnPropNameInTable="poCatColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="poName" msprop:Generator_UserColumnName="poName" msprop:Generator_ColumnVarNameInTable="columnpoName" msprop:Generator_ColumnPropNameInRow="poName" msprop:Generator_ColumnPropNameInTable="poNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="poNo" msprop:Generator_UserColumnName="poNo" msprop:Generator_ColumnVarNameInTable="columnpoNo" msprop:Generator_ColumnPropNameInRow="poNo" msprop:Generator_ColumnPropNameInTable="poNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="issueDate" msprop:Generator_UserColumnName="issueDate" msprop:Generator_ColumnVarNameInTable="columnissueDate" msprop:Generator_ColumnPropNameInRow="issueDate" msprop:Generator_ColumnPropNameInTable="issueDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="expireDate" msprop:Generator_UserColumnName="expireDate" msprop:Generator_ColumnVarNameInTable="columnexpireDate" msprop:Generator_ColumnPropNameInRow="expireDate" msprop:Generator_ColumnPropNameInTable="expireDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="cancelPo" msprop:Generator_UserColumnName="cancelPo" msprop:Generator_ColumnVarNameInTable="columncancelPo" msprop:Generator_ColumnPropNameInRow="cancelPo" msprop:Generator_ColumnPropNameInTable="cancelPoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="remainingImpl" msprop:Generator_UserColumnName="remainingImpl" msprop:Generator_ColumnVarNameInTable="columnremainingImpl" msprop:Generator_ColumnPropNameInRow="remainingImpl" msprop:Generator_ColumnPropNameInTable="remainingImplColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="implDonePendingBaut" msprop:Generator_UserColumnName="implDonePendingBaut" msprop:Generator_ColumnVarNameInTable="columnimplDonePendingBaut" msprop:Generator_ColumnPropNameInRow="implDonePendingBaut" msprop:Generator_ColumnPropNameInTable="implDonePendingBautColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="bautDonePendingBast" msprop:Generator_UserColumnName="bautDonePendingBast" msprop:Generator_ColumnPropNameInRow="bautDonePendingBast" msprop:Generator_ColumnVarNameInTable="columnbautDonePendingBast" msprop:Generator_ColumnPropNameInTable="bautDonePendingBastColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="bastDone" msprop:Generator_UserColumnName="bastDone" msprop:Generator_ColumnPropNameInRow="bastDone" msprop:Generator_ColumnVarNameInTable="columnbastDone" msprop:Generator_ColumnPropNameInTable="bastDoneColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="bautApprove" msprop:Generator_UserColumnName="bautApprove" msprop:Generator_ColumnPropNameInRow="bautApprove" msprop:Generator_ColumnVarNameInTable="columnbautApprove" msprop:Generator_ColumnPropNameInTable="bautApproveColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="implDone" msprop:Generator_UserColumnName="implDone" msprop:Generator_ColumnPropNameInRow="implDone" msprop:Generator_ColumnVarNameInTable="columnimplDone" msprop:Generator_ColumnPropNameInTable="implDoneColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="totalPo" msprop:Generator_UserColumnName="totalPo" msprop:Generator_ColumnVarNameInTable="columntotalPo" msprop:Generator_ColumnPropNameInRow="totalPo" msprop:Generator_ColumnPropNameInTable="totalPoColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

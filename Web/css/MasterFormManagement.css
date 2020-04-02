@@ -1,0 +1,74 @@
+﻿.ltrHeaderLabel
+{
+	font-family: verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000;
+}
+.ltrLabel
+{
+	font-family: verdana;
+	font-size: 8pt;
+	color: #000;
+}
+.lblField
+{
+	font-family: verdana;
+	font-size: 8pt;
+	font-weight: bolder;
+	color: #000;
+}
+.emptyRowStyle
+{
+	font-family: verdana;
+	font-size: 8pt;
+	font-weight: bolder;
+	color: maroon;
+	border-style: solid;
+	padding: 3px;
+	border-width: 1px;
+	border-color: gray;
+}
+.GridHeader
+{
+	background-color: #ffc90e;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 9pt;
+	text-align: center;
+	height: 30px;
+	color: white;
+}
+.GridOddRows
+{
+	font-family: verdana;
+	font-size: 7.5pt;
+}
+.GridEvenRows
+{
+	background-color: #cfcfcf;
+	font-family: verdana;
+	font-size: 7.5pt;
+}
+
+.GridHeader2
+{
+	background-color: #c3c3c3;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 9pt;
+	text-align: center;
+	height: 20px;
+	color: white;
+}
+.GridOddRows2
+{
+	font-family: verdana;
+	font-size: 7.5pt;
+}
+.GridEvenRows2
+{
+	background-color: #cfcfcf;
+	font-family: verdana;
+	font-size: 7.5pt;
+}

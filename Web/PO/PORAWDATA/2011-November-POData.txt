@@ -1,0 +1,97 @@
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11071082.xls | Date Time : 08/11/2011 12:11 | Uploaded by : Pramono | UserType : N
+Processed Records : 14
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11060965.xls | Date Time : 09/11/2011 15:10 | Uploaded by : Pramono | UserType : N
+Processed Records : 3
+
+
+Uploaded File Name : eBAST_Upload PO_TI_PO BSS Modernization3 PO 6 Balnus 2011.xls | Date Time : 10/11/2011 22:45 | Uploaded by : Pramono | UserType : N
+Processed Records : 171
+Missing Workpackage Id : 1
+Updated Sites : 240
+
+
+Uploaded File Name : eBAST_Upload PO_TI_2G PO Equipment Bali Nusra #9 2011.xls | Date Time : 10/11/2011 23:45 | Uploaded by : Pramono | UserType : N
+Processed Records : 26
+
+
+Uploaded File Name : 2G PO Equipment Bali Nusra_10 2011_HOT 11071139.xls | Date Time : 11/11/2011 09:37 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 71
+
+
+Uploaded File Name : 2G PO Equipment Bali Nusra_10 2011_HOT 11071139.xls | Date Time : 11/11/2011 09:43 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 71
+
+
+Uploaded File Name : PO 2G EQUIPMENT BALI NUSRA_7 2011- HOT 11070760.xls | Date Time : 11/11/2011 09:55 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 3
+
+
+Uploaded File Name : 2G PO Equipment IBC Bali Nusra_1 2011_HOT 11070435.xls | Date Time : 11/11/2011 11:21 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 2
+
+
+Uploaded File Name : PO 2G Bali Nusra_2 2011_HOT 11070162.xls | Date Time : 11/11/2011 11:45 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 68
+
+
+Uploaded File Name : PO 2G Bali Nusra_4 2011_HOT 11000328.xls | Date Time : 11/11/2011 14:44 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 113
+
+
+Uploaded File Name : 2G PO Equipment Bali Nusra_5 2011_HOT 11070538.xls | Date Time : 11/11/2011 15:28 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 15
+
+
+Uploaded File Name : 2G PO Equipment Bali Nusra_5 2011_HOT 11070538.xls | Date Time : 11/11/2011 15:32 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 15
+
+
+Uploaded File Name : 2G PO#19 TI 2010 West Java- HOT 11041366.xls | Date Time : 15/11/2011 11:41 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 92
+
+
+Uploaded File Name : 2G TLine Implementation Kalimantan_1 2011_HOT11080337.xls | Date Time : 15/11/2011 16:22 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 2
+
+
+Uploaded File Name : PO 2G Equipment_10 Sumbagsel 2011- Hot 11001123.xls | Date Time : 17/11/2011 11:30 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 262
+
+
+Uploaded File Name : PO 2G Equipment_18 Sumbagsel 2011- Hot 11021306.xls | Date Time : 17/11/2011 11:43 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 9
+
+
+Uploaded File Name : eBAST_Upload PO_TI_HOT 11001123_Kalimantan.xls | Date Time : 17/11/2011 12:44 | Uploaded by : Pramono | UserType : N
+Processed Records : 25
+
+
+Uploaded File Name : 2G PO_21 EQP_TI 2011_ Jabodetabek-HOT 11031241.xls | Date Time : 22/11/2011 09:26 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 142
+Missing Workpackage Id : 1
+
+
+Uploaded File Name : 2G PO_21 EQP_TI 2011_ Jabodetabek-HOT 11031241.xls | Date Time : 22/11/2011 09:57 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 143
+
+
+Uploaded File Name : 2G PO_20 EQP_TI 2011_ Jabodetabek-HOT 11031132.xls | Date Time : 22/11/2011 11:54 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 62
+
+
+Uploaded File Name : 2G PO_20 EQP_TI 2011_ Jabodetabek-HOT 11031132.xls | Date Time : 22/11/2011 12:22 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 62
+
+
+Uploaded File Name : 2G PO_18 Eq TI 2011 West Java-HOT 11001123.xls | Date Time : 22/11/2011 17:07 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 20
+
+
+Uploaded File Name : 2G PO Additional Enclosure Bali Nusra_1 2011_HOT 11070062.xls | Date Time : 25/11/2011 12:25 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 4
+
+
+Uploaded File Name : 2G PO_16 TRS 2011 West Java- HOT 11040626.xls | Date Time : 30/11/2011 15:25 | Uploaded by : Monika Ningrum | UserType : N
+Processed Records : 4
